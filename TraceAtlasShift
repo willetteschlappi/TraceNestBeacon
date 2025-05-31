@@ -1,0 +1,22 @@
+
+---
+
+**TraceAtlasShift**  
+**Description:**  
+Aligns traces from multiple environments to spot behavioral drift, performance shifts, or bottlenecks.
+
+```markdown
+# TraceAtlasShift – Cross-Environment Trace Comparator
+
+TraceAtlasShift compares trace graphs from different clusters, staging vs prod, or deployments to visualize change impact.
+
+## Features
+- Span time comparison
+- Graph difference rendering
+- Supports OpenTelemetry traces
+
+## Usage
+```bash
+git clone https://github.com/your-username/TraceAtlasShift.git
+cd TraceAtlasShift
+python compare_traces.py
