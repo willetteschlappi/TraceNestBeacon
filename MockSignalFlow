@@ -1,0 +1,22 @@
+
+---
+
+**MockSignalFlow**  
+**Description:**  
+Emits synthetic signal data streams to test real-time ingestion systems and alert pipelines.
+
+```markdown
+# MockSignalFlow – Real-Time Signal Generator
+
+MockSignalFlow generates fake sensor data, metric pulses, and random event spikes to simulate streaming ingestion.
+
+## Features
+- Emits to Kafka, MQTT, or HTTP
+- Pattern-based or random bursts
+- Configurable signal quality & noise
+
+## Usage
+```bash
+git clone https://github.com/your-username/MockSignalFlow.git
+cd MockSignalFlow
+python stream.py
