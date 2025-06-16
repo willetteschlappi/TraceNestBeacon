@@ -1,0 +1,22 @@
+
+---
+
+**AnomRadarZone**  
+**Description:**  
+Continuously scans metrics and logs to detect localized anomaly zones across services or regions.
+
+```markdown
+# AnomRadarZone – Multi-Zone Anomaly Scanner
+
+AnomRadarZone visualizes anomaly detection results in radar-style plots, helping operators spot zone-level disruptions.
+
+## Features
+- Radar-style anomaly plots
+- Supports multitenant input
+- Works with metrics, logs, traces
+
+## Usage
+```bash
+git clone https://github.com/your-username/AnomRadarZone.git
+cd AnomRadarZone
+python radar.py
